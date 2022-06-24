@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acenda a lâmpada</title>
+    <link rel="stylesheet" href="lampada.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id = "titulo">Acenda a lâmpada</h1>
+    </header>
+
+    <main>
+      <div class="conteudo-um">
+        <img src="lampada-apagada.png" class="lampada" id="lampada" />
+      </div>
+
+      <div class="conteudo-dois">
+        <div class="conteudo-dois-bateria">
+          <img src="sem-bateria.png" class="bateria" id="bateria" />
+          <button class="conectar" onclick="conectar()">conectar</button>
+        </div>
+
+        <div class="conteudo-dois-interruptor">
+          <img src="off.png" class="interruptor" id="interruptor" />
+          <button class="ligar" onclick="ligar()">Ligar</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copy">&copy; Renata Dellamatriz</p>
+    </footer>
+    <script src="lampada.js"></script>
+  </body>
+</html>
