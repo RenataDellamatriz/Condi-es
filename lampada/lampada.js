@@ -21,7 +21,7 @@ function conectar() {
     bateriaImg.setAttribute("src", "sem-bateria.png");
     lampadaImg.setAttribute("src", "lampada-apagada.png");
     document.body.style.background = 'rgb(99, 146, 160)';
-    document.getElementById('titulo').style.color = rgb(198, 204, 204);
+    document.getElementById('titulo').style.color = 'rgb(198, 204, 204)';
   }
 }
 
